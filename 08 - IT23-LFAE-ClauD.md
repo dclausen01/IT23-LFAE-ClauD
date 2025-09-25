@@ -32,16 +32,22 @@
 	- [[Pasted Image 20240722121149_455.jpg]]
 	- [[Unbenannt]]
 - [[Dockerfile]]
+- **[[Excel-Übung]]**
+	- [[Baecker_FILTER_TEILERGEBNIS.xls]]
+	- [[Baecker_org_BASIS.xls]]
+	- [[Baecker_org_INDEX_und_Matrix.xlsx]]
+	- [[Baecker_org_Pivot.xlsx]]
 - [[git-autocommit.sh]]
 - [[hello_world.php]]
 - [[index.html]]
-- **[[IT24-LF4]]**
 - [[Klausurthemen IT22]]
 - **[[LF10]]**
 - **[[LF12]]**
 	- [[00 - Übersicht über Themen LF12.excalidraw]]
 	- [[00 - Übersicht über Themen LF12]]
+	- [[01 - Bit-zu-Byte-Umrechnungen usw.]]
 	- [[01 - Projektmanagement.excalidraw]]
+	- [[01 - Projektmanagement.excalidraw.svg]]
 	- [[01 - Projektmanagement]]
 	- [[02 - Kundenaufträge im Rahmen von Projekten planen und bearbeiten.excalidraw]]
 	- [[02 - Kundenaufträge im Rahmen von Projekten planen und bearbeiten]]
@@ -55,15 +61,15 @@
 	- [[04 - BarCamp.excalidraw]]
 	- [[04 - BarCamp.excalidraw.svg]]
 	- [[04a - Progressive Web Apps - When and Why.excalidraw]]
-	- [[04a - Progressive Web Apps - When and Why.excalidraw.svg]]
 	- [[05 - Crashkurs Excel.excalidraw]]
-	- [[05 - Crashkurs Excel.excalidraw.svg]]
 	- [[06 - Wiederholung SQL JOIN.excalidraw]]
 	- [[06 - Wiederholung SQL JOIN.excalidraw.svg]]
 	- [[07 - Entity Relationship Modell und Diagramm (ERM und ERD).excalidraw]]
 	- [[07 - Entity Relationship Modell und Diagramm (ERM und ERD).excalidraw.svg]]
 	- [[07 - Entity Relationship Modell und Diagramm (ERM und ERD)]]
 	- [[08 - Übung SQL und JOIN]]
+	- [[08 - Weinhandel Herbst2023 DB.db]]
+	- [[08 - Weinhandel Herbst2023.sql]]
 	- [[08a - JOIN Übung aus IHK Herbst-2023.excalidraw]]
 	- [[08a - JOIN Übung aus IHK Herbst-2023.excalidraw.svg]]
 	- [[08a - Lösungen SQL und JOIN]]
@@ -97,6 +103,8 @@
 	- [[14a - Loesung Sequenzdiagramm]]
 	- [[14b - Aufgaben Optimierungsalgorithmus]]
 	- [[14b - Loesungen Optimierungsalgorithmus]]
+	- [[15 - Dateiformate zum Datenaustausch (JSON, XML)]]
+	- [[16 - Verschlüsselung]]
 	- [[99 - Mögliche Projekte]]
 	- **Anhänge**
 		- [[ChatGPT Image 9. Apr. 2025, 22_35_31.png]]
@@ -125,6 +133,7 @@
 		- [[Pasted Image 20250402210801_261.png]]
 		- [[Pasted image 20250409223406.png]]
 	- **[[Blockchain]]**
+	- [[Bsp_Dokumentation.pdf]]
 	- **[[Container]]**
 	- [[Praktische Software-Entwicklung unter Verwendung von LLM (am Beispiel von Anthropic Claude)]]
 	- [[Themenspeicher zu Lernendes]]
