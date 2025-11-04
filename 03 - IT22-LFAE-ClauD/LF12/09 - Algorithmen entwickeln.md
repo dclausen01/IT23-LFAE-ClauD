@@ -19,8 +19,42 @@ print(fibonacci(2))
 # Übungsaufgabe 2:
 Schreibe eine Funktion in Python, die überprüft, ob eine gegebene Zahl eine Primzahl ist. Verwende dabei den Algorithmus des "Sieb des Eratosthenes".
 
+``` Python
+def prime(wert):
+    primBool = False
+    if wert < 8:
+        if wert != 1 or wert != 4 or wert != 6:
+            primBool = True
+    else:
+        if wert % 7 != 0:
+            if wert % 5 != 0:
+                if wert % 3 != 0:
+                    if wert % 2 != 0:
+                        primBool = True
+    if primBool == True:
+        print(wert, "ist eine Primzahl.")
+    else:
+        print(wert, "ist keine Primzahl.")
+prime(121)
+```
+
 # Übungsaufgabe 3:
 Schreibe eine Funktion in Python (oder einer anderen Sprache), die prüft, ob ein gegebenes Wort ein Palindrom ist (also vorwärts und rückwärts gelesen dasselbe ergibt).
+
+``` Python
+def palindrom(wort):
+    s1, s2, s3 = "", "", ""
+    if len(wort) % 2 == 0:
+        s1, s2 = wort[:len(wort)//2].lower(), wort[len(wort)//2:].lower()
+    else:
+        s1, s2 = wort[:len(wort)//2].lower(), wort[(len(wort)//2) + 1:].lower()
+    s3 = s2[::-1]
+    if s1 == s3:
+        print(wort, "ist ein Palindrom")
+    else:
+        print(wort, "ist kein Palindrom")
+palindrom("Rentner") 
+```
 
 # Übungsaufgabe 4:
 Gegeben ist ein iterativ implementierter Algorithmus, der die Summe der ersten `n` natürlichen Zahlen berechnet. Schreibe eine rekursive Funktion, die das Gleiche tut.
