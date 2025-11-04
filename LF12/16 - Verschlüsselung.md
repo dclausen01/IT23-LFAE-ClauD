@@ -57,7 +57,7 @@ print("Entschlüsselt:", decrypted.decode())
 ### Inhalt
 - - **Theorie (15 Min):** Prinzip der asymmetrischen Verschlüsselung, RSA-Algorithmus
     - **Public-Key-Prinzip:** Jeder Teilnehmer hat ein Schlüsselpaar (öffentlich und privat). Öffentlicher Schlüssel zum Verschlüsseln, privater zum Entschlüsseln.
-    - Arbeitsmaterial: https://inf-schule.de/kryptologie/rsa
+    - **Arbeitsmaterial**: https://inf-schule.de/kryptologie/rsa
     - **RSA-Schlüsselerzeugung:**
         - Wähle zwei große Primzahlen p und q
         - Berechne n = p * q und φ(n) = (p-1)(q-1)

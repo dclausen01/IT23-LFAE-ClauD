@@ -396,6 +396,63 @@ Gegeben ist folgende Datenstruktur. Implementieren Sie diese sowohl in JSON als 
 - Ein Kunde mit Name und E-Mail
 - Mehrere Artikel mit Name, Menge und Einzelpreis (wählen Sie selbst 3 konkrete Artikel aus)
 - Gesamtsumme der Bestellung
+  
+  ```json
+  {
+   { 
+	   "client": 
+	   { "name": "Max Mustermann", 
+		 "email": "max_mustermann@gmail.com" 
+		}, 
+	   "id": 1, 
+	   "date": new Date("0"), 
+	   "items": [ 
+		   { "name": "Büroklammer", 
+		     "amount": 100, 
+		     "pricePerUnit": 0.01 
+		   }, 
+		   { "name": "DIN A4 Papier", 
+		     "amount": 10, 
+		     "pricePerUnit": 0.1 
+		   }, 
+		   { "name": "Kugelschreiber", 
+		     "amount": 1, 
+		     "pricePerUnit": 1 
+		   }, 
+		], 
+		"total": 3 
+		} 
+	}  
+```
+   
+
+```xml
+<order> 
+	<client> 
+		<name> Max Mustermann </name> 
+		<email> [max_mustermann@gmail.com](mailto:max_mustermann@gmail.com) </email> 
+	</client> 
+	<id> 1 </id> 
+	<date> 25.09.2025 9:15:40UTC </date> 
+	<items> 
+		<item> 
+			<name> Büroklammer </name> 
+			<amount> 100 </amount> 
+			<pricePerUnit> 0.01 </pricePerUnit> 
+		</item> 
+		<item> 
+			<name> DIN A4 Papier </name> 
+			<amount> 10 </amount> 
+			<pricePerUnit> 0.1 </pricePerUnit> 
+		</item> 
+		<item> 
+			<name> Kugelschreiber </name> 
+			<amount> 1 </amount> 
+			<pricePerUnit> 1 </pricePerUnit> 
+		</item> 
+	</items> 
+</order>
+```
 
 ### Aufgabe 2: API-Design
 Entwerfen Sie eine REST-API für eine Bibliotheksverwaltung:
@@ -403,6 +460,90 @@ Entwerfen Sie eine REST-API für eine Bibliotheksverwaltung:
 2. Definieren Sie Endpoints für CRUD-Operationen
 3. Erstellen Sie Beispiel-Request/Response-Paare
 
+```JSON
+Create:
+Request: {
+	"method": "POST",
+	"body": {
+		"name": "Test",
+		"releaseDate": "01.01.1970",
+		"genre": "Slice of Life",
+		"author": "John Doe"
+	}
+}
+<br>Response: {
+	"statusCode": 200,
+	"message": "OK",
+	"result": []
+}
+<br>Read:
+Request: {
+	"method": "GET",
+	"body": {}
+}
+<br>Response: {
+	"statusCode": 200,
+	"message": "OK",
+	"result": [
+		{
+			"id": "1",
+			"name": "Test",
+			"releaseDate": "01.01.1970",
+			"genre": "Slice of Life",
+			"author": "John Doe"
+		}, {
+			"id": "2",
+			"name": "Test",
+			"releaseDate": "01.01.1970",
+			"genre": "Slice of Life",
+			"author": "John Doe"
+		}, {
+			"id": "3",
+			"name": "Test",
+			"releaseDate": "01.01.1970",
+			"genre": "Slice of Life",
+			"author": "John Doe"
+		}, {
+			"id": "4",
+			"name": "Test",
+			"releaseDate": "01.01.1970",
+			"genre": "Slice of Life",
+			"author": "John Doe"
+		}
+	]
+}
+<br>Update:
+Request: {
+	"method": "PUT",
+	"body": {
+		"id": "4",
+		"name": "Test",
+		"releaseDate": "07.04.2015",
+		"genre": "Slice of Life",
+		"author": "John Doe"
+	}
+}
+<br>Response: {
+	"statusCode": 200,
+	"message": "OK",
+	"result": []
+}
+<br>Delete:
+Request: {
+	"method": "DELETE",
+	"body": {
+		"id": "4",
+	}
+}
+<br>Response: {
+	"statusCode": 200,
+	"message": "OK",
+	"body": []
+}
+<br>```
+```
+
+```
 ### Aufgabe 3: Konvertierung
 Schreiben Sie eine Funktion (Pseudocode), die:
 - JSON in XML konvertiert

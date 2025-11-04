@@ -8,14 +8,14 @@ Qualitätssicherung in der Softwareentwicklung umfasst strategische Prozesse, No
 - **Agile Methoden**: Iterative Qualitätssicherung durch Continuous Integration  
 - **Automotive SPICE**: Branchenspezifisches Prozessassessment  
 
-**Metriken zur Messung** umfassen:  
-| **Kategorie**         | **Beispiele**                          |  
-|------------------------|-----------------------------------------|  
-| Entwicklerproduktivität| Durchlaufzeit, Code-Umfang, Work in Progress[3] |  
-| Softwareleistung       | Reaktionszeit ($$RT$$), Durchsatz ($$\theta$$), Verfügbarkeit ($$\lambda$$)[3] |  
-| Codequalität           | Zyklomatische Komplexität, Duplizierung |  
+**Metriken zur Messung** umfassen:
 
----
+| Kategorie               | Beispiele                                                                   |
+| ----------------------- | --------------------------------------------------------------------------- |
+| Entwicklerproduktivität | Durchlaufzeit, Code-Umfang, Work in Progress[3]                             |
+| Softwareleistung        | Reaktionszeit ($$RT$$), Durchsatz ($$\theta$$), Verfügbarkeit ($$\lambda$$) |
+| Code-Qualität           | Zyklomatische Komplexität, Duplizierung                                     |
+
 
 ## 2. Dokumentation und Standards  
 **Projektdokumentation** sichert Transparenz und dient als **Lessons-Learned**-Grundlage für zukünftige Projekte[4]. Kernbestandteile sind:  
