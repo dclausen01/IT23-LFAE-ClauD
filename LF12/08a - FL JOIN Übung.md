@@ -1,4 +1,4 @@
-`UPDATE RP 
+****`UPDATE RP 
 `SET RP.RgPos_RabattProzent = 12` 
 `FROM RechnungPosition RP 
 `JOIN Rechnung R ON RP.RgPos_RgIdKey = R.Rg_IdKey 
