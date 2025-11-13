@@ -2,7 +2,13 @@
 
 1. Erkläre den Unterschied zwischen **Singleton** und **Factory Pattern** anhand ihrer Struktur und Nutzungszwecke. Wann wäre jeweils ein Einsatz sinnvoll?
 
+Singleton beschreibt ein Pattern, bei dem nur eine Instanz einer Class existiert, bzw. existieren darf. Der Einsatz dieses Patterns ist z.B. dann Sinnvoll, wenn man in einem Videospiel einen szenenübergreifenden Satz an Daten in einer Klasse sammelt, die möglichst einfach und von überall ansprechbar sein soll und nicht überschrieben oder gelöscht werden darf.
+Das Factory Pattern dagegen beschreibt eine Klasse, die beim schnellen Generieren von weiteren Klassen mit ähnlichen, aber nicht vollkommen gleichen Attributen und Methoden hilft. 
+
+
 2. Nenne drei Vorteile und zwei Nachteile des **Observer-Patterns** in einer GUI-Anwendung. Wie beeinflusst es die Kopplung zwischen Komponenten?
+
+
 
 3. Beschreibe die Struktur des **Strategy-Patterns**. Warum ermöglicht es eine einfachere Erweiterung als bedingte Anweisungen (if-else)?
 
